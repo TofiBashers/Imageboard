@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Imageboard:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="Imageboard.war">
+      <element id="artifact" artifact-name="Imageboard:war exploded" />
+    </root>
+  </artifact>
+</component>
