@@ -1,7 +1,7 @@
 package com.tofibashers.imageboard.DAO;
 
 import com.tofibashers.imageboard.Entity.Board;
-import com.tofibashers.imageboard.Repositories.BoardRepository;
+import com.tofibashers.imageboard.Repository.BoardRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;

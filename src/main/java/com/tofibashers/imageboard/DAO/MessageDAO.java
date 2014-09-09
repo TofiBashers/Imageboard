@@ -2,7 +2,7 @@ package com.tofibashers.imageboard.DAO;
 
 import com.tofibashers.imageboard.Entity.Message;
 import com.tofibashers.imageboard.Entity.Thread;
-import com.tofibashers.imageboard.Repositories.MessageRepository;
+import com.tofibashers.imageboard.Repository.MessageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
@@ -60,12 +60,6 @@ public class MessageDAO {
         return messageRepository.save(message);
     }
 
-    public void addImagePathAsId(Message message)
-    {
-        entityManager.createQuery("UPDATE Message message SET message.image_path = :Id " +
-                "WHERE message.id = :Id")
-                .setParameter("Id", message.getId().toString()).executeUpdate();
-    }
 
     public void setThread(Message mess, Thread thread)
     {

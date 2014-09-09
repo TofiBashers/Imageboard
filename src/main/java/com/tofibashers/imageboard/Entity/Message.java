@@ -16,8 +16,6 @@ public class Message implements Serializable {
     private Integer parent_id;
     private String text;
 
-    private String image_path;
-
     @ManyToOne
     @JoinColumn
     private Thread thread;
@@ -48,14 +46,6 @@ public class Message implements Serializable {
 
     public void setText(String text) {
         this.text = text;
-    }
-
-    public String getImage_path() {
-        return image_path;
-    }
-
-    public void setImage_path(String image_path) {
-        this.image_path = image_path;
     }
 
     public Thread getThread() {

@@ -1,0 +1,1 @@
+insert into boards (name) values ('b')
