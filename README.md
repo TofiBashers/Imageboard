@@ -12,4 +12,10 @@ http://krautchan.net/
 https://2ch.hk/  
 
 Java version: 1.7  
-Databse: MySQL  
+Database: MySQL  
+
+Spring Framework 3.2.0
+MVC
+JPA (Hibernate provider)
+
+Frontend: HTML, CSS, jQuery
