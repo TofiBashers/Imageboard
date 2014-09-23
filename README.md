@@ -14,8 +14,8 @@ https://2ch.hk/
 Java version: 1.7  
 Database: MySQL  
 
-Spring Framework 3.2.0
-MVC
-JPA (Hibernate provider)
-
+Spring Framework 3.2.0  
+MVC  
+JPA (Hibernate provider)  
+  
 Frontend: HTML, CSS, jQuery
